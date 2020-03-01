@@ -1,0 +1,3 @@
+include ':app', ':lib_db'
+rootProject.name='WifiAdb'
+include ':lib_qr'

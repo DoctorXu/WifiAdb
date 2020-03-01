@@ -1,0 +1,336 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.google.zxing.client.android.test" >
+4
+5    <uses-sdk
+5-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1527300041593819070.xml:5:5-74
+6        android:minSdkVersion="19"
+6-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1527300041593819070.xml:5:15-41
+7        android:targetSdkVersion="29" />
+7-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1527300041593819070.xml:5:42-71
+8
+9    <instrumentation
+9-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1527300041593819070.xml:11:5-15:86
+10        android:name="android.test.InstrumentationTestRunner"
+10-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1527300041593819070.xml:11:22-75
+11        android:functionalTest="false"
+11-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1527300041593819070.xml:14:22-52
+12        android:handleProfiling="false"
+12-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1527300041593819070.xml:13:22-53
+13        android:label="Tests for com.google.zxing.client.android.test"
+13-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1527300041593819070.xml:15:22-84
+14        android:targetPackage="com.google.zxing.client.android.test" />
+14-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1527300041593819070.xml:12:22-82
+15
+16    <uses-feature android:name="android.hardware.camera.any" />
+16-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:5-64
+16-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:19-61
+17    <uses-feature
+17-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:5-31:36
+18        android:name="android.hardware.camera.autofocus"
+18-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:9-57
+19        android:required="false" />
+19-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:9-33
+20    <uses-feature
+20-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:5-34:36
+21        android:name="android.hardware.camera.flash"
+21-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:33:9-53
+22        android:required="false" />
+22-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:34:9-33
+23    <uses-feature android:name="android.hardware.screen.landscape" /> <!-- unavailable in API 23 -->
+23-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:35:5-70
+23-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:35:19-67
+24    <uses-feature
+24-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:37:5-39:36
+25        android:name="android.hardware.wifi"
+25-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:38:9-45
+26        android:required="false" />
+26-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:39:9-33
+27
+28    <uses-permission android:name="android.permission.CAMERA" />
+28-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:41:5-65
+28-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:41:22-62
+29    <uses-permission android:name="android.permission.INTERNET" />
+29-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:42:5-67
+29-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:42:22-64
+30    <uses-permission android:name="android.permission.VIBRATE" />
+30-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:43:5-66
+30-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:43:22-63
+31    <uses-permission android:name="android.permission.FLASHLIGHT" />
+31-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:44:5-69
+31-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:44:22-66
+32    <uses-permission android:name="android.permission.READ_CONTACTS" />
+32-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:45:5-72
+32-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:45:22-69
+33    <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS" />
+33-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:46:5-93
+33-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:46:22-90
+34    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+34-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:47:5-81
+34-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:47:22-78
+35    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+35-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:48:5-76
+35-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:48:22-73
+36    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+36-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:49:5-76
+36-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:49:22-73
+37
+38    <application
+38-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1527300041593819070.xml:7:5-9:19
+39        android:allowBackup="true"
+39-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:52:9-35
+40        android:debuggable="true"
+40-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1527300041593819070.xml:7:18-43
+41        android:label="@string/app_name" >
+41-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:53:9-41
+42        <uses-library android:name="android.test.runner" />
+42-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1527300041593819070.xml:8:9-60
+42-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1527300041593819070.xml:8:23-57
+43
+44        <activity
+44-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:55:9-115:20
+45            android:name="com.google.zxing.client.android.CaptureActivity"
+45-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:56:13-75
+46            android:clearTaskOnLaunch="true"
+46-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:57:13-45
+47            android:screenOrientation="sensorLandscape"
+47-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:58:13-56
+48            android:stateNotNeeded="true"
+48-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:59:13-42
+49            android:theme="@style/CaptureTheme"
+49-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:60:13-48
+50            android:windowSoftInputMode="stateAlwaysHidden" >
+50-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:61:13-60
+51            <intent-filter>
+51-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:62:13-66:29
+52                <action android:name="com.google.zxing.client.android.SCAN" />
+52-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:63:17-79
+52-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:63:25-76
+53
+54                <category android:name="android.intent.category.DEFAULT" />
+54-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:65:17-76
+54-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:65:27-73
+55            </intent-filter>
+56            <!-- Allow web apps to launch Barcode Scanner by linking to http://zxing.appspot.com/scan. -->
+57            <intent-filter>
+57-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:68:13-78:29
+58                <action android:name="android.intent.action.VIEW" />
+58-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:69:17-69
+58-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:69:25-66
+59
+60                <category android:name="android.intent.category.DEFAULT" />
+60-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:65:17-76
+60-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:65:27-73
+61                <category android:name="android.intent.category.BROWSABLE" />
+61-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:72:17-78
+61-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:72:27-75
+62
+63                <data
+63-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:74:17-77:45
+64                    android:host="zxing.appspot.com"
+64-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:75:21-53
+65                    android:path="/scan"
+65-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:76:21-41
+66                    android:scheme="http" />
+66-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:77:21-42
+67            </intent-filter>
+68            <!-- We also support a Google Product Search URL. -->
+69            <intent-filter>
+69-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:80:13-90:29
+70                <action android:name="android.intent.action.VIEW" />
+70-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:69:17-69
+70-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:69:25-66
+71
+72                <category android:name="android.intent.category.DEFAULT" />
+72-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:65:17-76
+72-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:65:27-73
+73                <category android:name="android.intent.category.BROWSABLE" />
+73-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:72:17-78
+73-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:72:27-75
+74
+75                <data
+75-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:74:17-77:45
+76                    android:host="www.google.com"
+76-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:75:21-53
+77                    android:path="/m/products/scan"
+77-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:76:21-41
+78                    android:scheme="http" />
+78-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:77:21-42
+79            </intent-filter>
+80            <!-- And the UK version. -->
+81            <intent-filter>
+81-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:92:13-102:29
+82                <action android:name="android.intent.action.VIEW" />
+82-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:69:17-69
+82-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:69:25-66
+83
+84                <category android:name="android.intent.category.DEFAULT" />
+84-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:65:17-76
+84-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:65:27-73
+85                <category android:name="android.intent.category.BROWSABLE" />
+85-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:72:17-78
+85-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:72:27-75
+86
+87                <data
+87-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:74:17-77:45
+88                    android:host="www.google.co.uk"
+88-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:75:21-53
+89                    android:path="/m/products/scan"
+89-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:76:21-41
+90                    android:scheme="http" />
+90-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:77:21-42
+91            </intent-filter>
+92            <!-- Support zxing://scan/?... like iPhone app -->
+93            <intent-filter>
+93-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:104:13-114:29
+94                <action android:name="android.intent.action.VIEW" />
+94-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:69:17-69
+94-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:69:25-66
+95
+96                <category android:name="android.intent.category.DEFAULT" />
+96-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:65:17-76
+96-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:65:27-73
+97                <category android:name="android.intent.category.BROWSABLE" />
+97-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:72:17-78
+97-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:72:27-75
+98
+99                <data
+99-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:74:17-77:45
+100                    android:host="scan"
+100-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:75:21-53
+101                    android:path="/"
+101-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:76:21-41
+102                    android:scheme="zxing" />
+102-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:77:21-42
+103            </intent-filter>
+104        </activity>
+105        <activity
+105-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:116:9-119:45
+106            android:name="com.google.zxing.client.android.PreferencesActivity"
+106-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:117:13-79
+107            android:label="@string/preferences_name"
+107-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:118:13-53
+108            android:stateNotNeeded="true" />
+108-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:119:13-42
+109        <activity
+109-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:120:9-144:20
+110            android:name="com.google.zxing.client.android.encode.EncodeActivity"
+110-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:121:13-81
+111            android:stateNotNeeded="true" >
+111-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:122:13-42
+112            <intent-filter>
+112-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:123:13-127:29
+113                <action android:name="com.google.zxing.client.android.ENCODE" />
+113-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:124:17-81
+113-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:124:25-78
+114
+115                <category android:name="android.intent.category.DEFAULT" />
+115-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:65:17-76
+115-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:65:27-73
+116            </intent-filter>
+117            <!-- This allows us to handle the Share button in Contacts. -->
+118            <intent-filter>
+118-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:129:13-135:29
+119                <action android:name="android.intent.action.SEND" />
+119-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:130:17-69
+119-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:130:25-66
+120
+121                <category android:name="android.intent.category.DEFAULT" />
+121-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:65:17-76
+121-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:65:27-73
+122
+123                <data android:mimeType="text/x-vcard" />
+123-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:74:17-77:45
+124            </intent-filter>
+125            <!-- This allows us to handle sharing any plain text . -->
+126            <intent-filter>
+126-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:137:13-143:29
+127                <action android:name="android.intent.action.SEND" />
+127-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:130:17-69
+127-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:130:25-66
+128
+129                <category android:name="android.intent.category.DEFAULT" />
+129-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:65:17-76
+129-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:65:27-73
+130
+131                <data android:mimeType="text/plain" />
+131-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:74:17-77:45
+132            </intent-filter>
+133        </activity>
+134        <activity
+134-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:145:9-155:20
+135            android:name="com.google.zxing.client.android.book.SearchBookContentsActivity"
+135-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:146:13-91
+136            android:label="@string/sbc_name"
+136-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:147:13-45
+137            android:screenOrientation="sensorLandscape"
+137-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:148:13-56
+138            android:stateNotNeeded="true" >
+138-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:149:13-42
+139            <intent-filter>
+139-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:150:13-154:29
+140                <action android:name="com.google.zxing.client.android.SEARCH_BOOK_CONTENTS" />
+140-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:151:17-95
+140-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:151:25-92
+141
+142                <category android:name="android.intent.category.DEFAULT" />
+142-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:65:17-76
+142-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:65:27-73
+143            </intent-filter>
+144        </activity>
+145        <activity
+145-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:156:9-165:20
+146            android:name="com.google.zxing.client.android.share.ShareActivity"
+146-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:157:13-79
+147            android:screenOrientation="user"
+147-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:158:13-45
+148            android:stateNotNeeded="true" >
+148-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:159:13-42
+149            <intent-filter>
+149-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:160:13-164:29
+150                <action android:name="com.google.zxing.client.android.SHARE" />
+150-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:161:17-80
+150-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:161:25-77
+151
+152                <category android:name="android.intent.category.DEFAULT" />
+152-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:65:17-76
+152-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:65:27-73
+153            </intent-filter>
+154        </activity>
+155        <activity
+155-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:166:9-169:45
+156            android:name="com.google.zxing.client.android.history.HistoryActivity"
+156-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:167:13-83
+157            android:label="@string/history_title"
+157-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:168:13-50
+158            android:stateNotNeeded="true" />
+158-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:169:13-42
+159        <activity
+159-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:170:9-173:45
+160            android:name="com.google.zxing.client.android.share.BookmarkPickerActivity"
+160-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:171:13-88
+161            android:label="@string/bookmark_picker_name"
+161-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:172:13-57
+162            android:stateNotNeeded="true" />
+162-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:173:13-42
+163        <activity
+163-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:174:9-177:45
+164            android:name="com.google.zxing.client.android.share.AppPickerActivity"
+164-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:175:13-83
+165            android:label="@string/app_picker_name"
+165-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:176:13-52
+166            android:stateNotNeeded="true" />
+166-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:177:13-42
+167        <activity
+167-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:178:9-182:45
+168            android:name="com.google.zxing.client.android.HelpActivity"
+168-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:179:13-72
+169            android:label="@string/menu_help"
+169-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:180:13-46
+170            android:screenOrientation="user"
+170-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:181:13-45
+171            android:stateNotNeeded="true" />
+171-->[__tested_artifact__::lib_qr] D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\build\intermediates\library_manifest\debug\AndroidManifest.xml:182:13-42
+172    </application>
+173
+174</manifest>

@@ -1,0 +1,340 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3 Copyright (C) 2008 ZXing authors
+4
+5 Licensed under the Apache License, Version 2.0 (the "License");
+6 you may not use this file except in compliance with the License.
+7 You may obtain a copy of the License at
+8
+9      http://www.apache.org/licenses/LICENSE-2.0
+10
+11 Unless required by applicable law or agreed to in writing, software
+12 distributed under the License is distributed on an "AS IS" BASIS,
+13 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14 See the License for the specific language governing permissions and
+15 limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    xmlns:tools="http://schemas.android.com/tools"
+19    package="com.google.zxing.client.android"
+20    android:installLocation="auto"
+21    android:versionCode="108"
+22    android:versionName="4.7.8" >
+23
+24    <uses-sdk
+25        android:minSdkVersion="19"
+25-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml
+26        android:targetSdkVersion="29" />
+26-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml
+27
+28    <uses-feature android:name="android.hardware.camera.any" />
+28-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:148:5-64
+28-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:148:19-61
+29    <uses-feature
+29-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:149:5-151:36
+30        android:name="android.hardware.camera.autofocus"
+30-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:150:9-57
+31        android:required="false" />
+31-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:151:9-33
+32    <uses-feature
+32-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:152:5-154:36
+33        android:name="android.hardware.camera.flash"
+33-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:153:9-53
+34        android:required="false" />
+34-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:154:9-33
+35    <uses-feature android:name="android.hardware.screen.landscape" />
+35-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:155:5-70
+35-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:155:19-67
+36    <!-- unavailable in API 23 -->
+37    <uses-feature
+37-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:157:5-159:36
+38        android:name="android.hardware.wifi"
+38-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:158:9-45
+39        android:required="false" />
+39-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:159:9-33
+40
+41    <uses-permission android:name="android.permission.CAMERA" />
+41-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:160:5-65
+41-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:160:22-62
+42    <uses-permission android:name="android.permission.INTERNET" />
+42-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:161:5-67
+42-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:161:22-64
+43    <uses-permission android:name="android.permission.VIBRATE" />
+43-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:162:5-66
+43-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:162:22-63
+44    <uses-permission android:name="android.permission.FLASHLIGHT" />
+44-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:164:5-69
+44-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:164:22-66
+45    <uses-permission android:name="android.permission.READ_CONTACTS" />
+45-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:165:5-72
+45-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:165:22-69
+46    <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS" />
+46-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:166:5-93
+46-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:166:22-90
+47    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+47-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:167:5-81
+47-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:167:22-78
+48    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+48-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:168:5-76
+48-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:168:22-73
+49    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+49-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:170:5-76
+49-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:170:22-73
+50
+51    <application
+51-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:23:5-147:19
+52        android:allowBackup="true"
+52-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:24:9-35
+53        android:label="@string/app_name"
+53-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:25:9-41
+54        tools:targetApi="donut" >
+54-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:26:9-32
+55        <activity
+55-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:27:9-86:20
+56            android:name="com.google.zxing.client.android.CaptureActivity"
+56-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:28:13-44
+57            android:clearTaskOnLaunch="true"
+57-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:29:13-45
+58            android:screenOrientation="sensorLandscape"
+58-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:30:13-56
+59            android:stateNotNeeded="true"
+59-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:31:13-42
+60            android:theme="@style/CaptureTheme"
+60-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:32:13-48
+61            android:windowSoftInputMode="stateAlwaysHidden" >
+61-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:33:13-60
+62            <intent-filter>
+62-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:34:13-37:29
+63                <action android:name="com.google.zxing.client.android.SCAN" />
+63-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:35:17-79
+63-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:35:25-76
+64
+65                <category android:name="android.intent.category.DEFAULT" />
+65-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:36:17-76
+65-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:36:27-73
+66            </intent-filter>
+67            <!-- Allow web apps to launch Barcode Scanner by linking to http://zxing.appspot.com/scan. -->
+68            <intent-filter>
+68-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:39:13-49:29
+69                <action android:name="android.intent.action.VIEW" />
+69-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:40:17-69
+69-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:40:25-66
+70
+71                <category android:name="android.intent.category.DEFAULT" />
+71-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:36:17-76
+71-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:36:27-73
+72                <category android:name="android.intent.category.BROWSABLE" />
+72-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:43:17-78
+72-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:43:27-75
+73
+74                <data
+74-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:45:17-48:45
+75                    android:host="zxing.appspot.com"
+75-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:46:21-53
+76                    android:path="/scan"
+76-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:47:21-41
+77                    android:scheme="http" />
+77-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:48:21-42
+78            </intent-filter>
+79            <!-- We also support a Google Product Search URL. -->
+80            <intent-filter>
+80-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:51:13-61:29
+81                <action android:name="android.intent.action.VIEW" />
+81-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:40:17-69
+81-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:40:25-66
+82
+83                <category android:name="android.intent.category.DEFAULT" />
+83-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:36:17-76
+83-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:36:27-73
+84                <category android:name="android.intent.category.BROWSABLE" />
+84-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:43:17-78
+84-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:43:27-75
+85
+86                <data
+86-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:45:17-48:45
+87                    android:host="www.google.com"
+87-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:46:21-53
+88                    android:path="/m/products/scan"
+88-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:47:21-41
+89                    android:scheme="http" />
+89-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:48:21-42
+90            </intent-filter>
+91            <!-- And the UK version. -->
+92            <intent-filter>
+92-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:63:13-73:29
+93                <action android:name="android.intent.action.VIEW" />
+93-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:40:17-69
+93-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:40:25-66
+94
+95                <category android:name="android.intent.category.DEFAULT" />
+95-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:36:17-76
+95-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:36:27-73
+96                <category android:name="android.intent.category.BROWSABLE" />
+96-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:43:17-78
+96-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:43:27-75
+97
+98                <data
+98-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:45:17-48:45
+99                    android:host="www.google.co.uk"
+99-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:46:21-53
+100                    android:path="/m/products/scan"
+100-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:47:21-41
+101                    android:scheme="http" />
+101-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:48:21-42
+102            </intent-filter>
+103            <!-- Support zxing://scan/?... like iPhone app -->
+104            <intent-filter>
+104-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:75:13-85:29
+105                <action android:name="android.intent.action.VIEW" />
+105-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:40:17-69
+105-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:40:25-66
+106
+107                <category android:name="android.intent.category.DEFAULT" />
+107-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:36:17-76
+107-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:36:27-73
+108                <category android:name="android.intent.category.BROWSABLE" />
+108-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:43:17-78
+108-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:43:27-75
+109
+110                <data
+110-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:45:17-48:45
+111                    android:host="scan"
+111-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:46:21-53
+112                    android:path="/"
+112-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:47:21-41
+113                    android:scheme="zxing" />
+113-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:48:21-42
+114            </intent-filter>
+115        </activity>
+116        <activity
+116-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:87:9-90:45
+117            android:name="com.google.zxing.client.android.PreferencesActivity"
+117-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:88:13-48
+118            android:label="@string/preferences_name"
+118-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:89:13-53
+119            android:stateNotNeeded="true" />
+119-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:90:13-42
+120        <activity
+120-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:91:9-110:20
+121            android:name="com.google.zxing.client.android.encode.EncodeActivity"
+121-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:92:13-50
+122            android:stateNotNeeded="true" >
+122-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:93:13-42
+123            <intent-filter>
+123-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:94:13-97:29
+124                <action android:name="com.google.zxing.client.android.ENCODE" />
+124-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:95:17-81
+124-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:95:25-78
+125
+126                <category android:name="android.intent.category.DEFAULT" />
+126-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:36:17-76
+126-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:36:27-73
+127            </intent-filter>
+128            <!-- This allows us to handle the Share button in Contacts. -->
+129            <intent-filter>
+129-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:99:13-103:29
+130                <action android:name="android.intent.action.SEND" />
+130-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:100:17-69
+130-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:100:25-66
+131
+132                <category android:name="android.intent.category.DEFAULT" />
+132-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:36:17-76
+132-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:36:27-73
+133
+134                <data android:mimeType="text/x-vcard" />
+134-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:45:17-48:45
+134-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:102:23-54
+135            </intent-filter>
+136            <!-- This allows us to handle sharing any plain text . -->
+137            <intent-filter>
+137-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:105:13-109:29
+138                <action android:name="android.intent.action.SEND" />
+138-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:100:17-69
+138-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:100:25-66
+139
+140                <category android:name="android.intent.category.DEFAULT" />
+140-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:36:17-76
+140-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:36:27-73
+141
+142                <data android:mimeType="text/plain" />
+142-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:45:17-48:45
+142-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:102:23-54
+143            </intent-filter>
+144        </activity>
+145        <activity
+145-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:111:9-120:20
+146            android:name="com.google.zxing.client.android.book.SearchBookContentsActivity"
+146-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:112:13-60
+147            android:label="@string/sbc_name"
+147-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:113:13-45
+148            android:screenOrientation="sensorLandscape"
+148-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:114:13-56
+149            android:stateNotNeeded="true" >
+149-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:115:13-42
+150            <intent-filter>
+150-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:116:13-119:29
+151                <action android:name="com.google.zxing.client.android.SEARCH_BOOK_CONTENTS" />
+151-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:117:17-95
+151-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:117:25-92
+152
+153                <category android:name="android.intent.category.DEFAULT" />
+153-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:36:17-76
+153-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:36:27-73
+154            </intent-filter>
+155        </activity>
+156        <activity
+156-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:121:9-129:20
+157            android:name="com.google.zxing.client.android.share.ShareActivity"
+157-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:122:13-48
+158            android:screenOrientation="user"
+158-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:123:13-45
+159            android:stateNotNeeded="true" >
+159-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:124:13-42
+160            <intent-filter>
+160-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:125:13-128:29
+161                <action android:name="com.google.zxing.client.android.SHARE" />
+161-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:126:17-80
+161-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:126:25-77
+162
+163                <category android:name="android.intent.category.DEFAULT" />
+163-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:36:17-76
+163-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:36:27-73
+164            </intent-filter>
+165        </activity>
+166        <activity
+166-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:130:9-133:45
+167            android:name="com.google.zxing.client.android.history.HistoryActivity"
+167-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:131:13-52
+168            android:label="@string/history_title"
+168-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:132:13-50
+169            android:stateNotNeeded="true" />
+169-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:133:13-42
+170        <activity
+170-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:134:9-137:45
+171            android:name="com.google.zxing.client.android.share.BookmarkPickerActivity"
+171-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:135:13-57
+172            android:label="@string/bookmark_picker_name"
+172-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:136:13-57
+173            android:stateNotNeeded="true" />
+173-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:137:13-42
+174        <activity
+174-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:138:9-141:45
+175            android:name="com.google.zxing.client.android.share.AppPickerActivity"
+175-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:139:13-52
+176            android:label="@string/app_picker_name"
+176-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:140:13-52
+177            android:stateNotNeeded="true" />
+177-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:141:13-42
+178        <activity
+178-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:142:9-146:45
+179            android:name="com.google.zxing.client.android.HelpActivity"
+179-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:143:13-41
+180            android:label="@string/menu_help"
+180-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:144:13-46
+181            android:screenOrientation="user"
+181-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:145:13-45
+182            android:stateNotNeeded="true" />
+182-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml:146:13-42
+183    </application>
+184
+185</manifest>
