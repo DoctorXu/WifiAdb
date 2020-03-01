@@ -1,5 +1,5 @@
 apply plugin: 'com.android.library'
-//apply plugin: 'org.greenrobot.greendao' // apply plugin
+apply plugin: 'org.greenrobot.greendao' // apply plugin
 
 android {
     compileSdkVersion 29
@@ -31,14 +31,13 @@ dependencies {
     androidTestImplementation 'androidx.test:runner:1.2.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 
-    /*implementation 'org.greenrobot:greendao:3.2.2'
-    implementation files('libs/greenrobot-jdt-3.12.2.jar')*/
+    implementation 'org.greenrobot:greendao:3.2.2' // add library
 }
 
-/*greendao {
+greendao {
     schemaVersion 1
     daoPackage 'com.xiaomi.factory.wifiadb.db'
     targetGenDir 'src/main/java'
     generateTests false
     targetGenDirTests 'src/main/java'
-}*/
+}

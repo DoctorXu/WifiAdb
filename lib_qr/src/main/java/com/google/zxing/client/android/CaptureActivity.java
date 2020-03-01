@@ -16,7 +16,6 @@
 
 package com.google.zxing.client.android;
 
-//import com.alibaba.android.arouter.facade.annotation.Route;
 import com.google.zxing.BarcodeFormat;
 import com.google.zxing.DecodeHintType;
 import com.google.zxing.Result;
@@ -79,7 +78,6 @@ import java.util.Map;
  * @author dswitkin@google.com (Daniel Switkin)
  * @author Sean Owen
  */
-//@Route(path = "/qr/capture")
 public final class CaptureActivity extends Activity implements SurfaceHolder.Callback {
 
     private static final String TAG = CaptureActivity.class.getSimpleName();

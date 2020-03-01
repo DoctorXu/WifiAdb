@@ -1,19 +1,16 @@
 apply plugin: 'com.android.library'
 android {
     compileSdkVersion 29
-    buildToolsVersion "28.0.3"
 
     defaultConfig {
-        minSdkVersion 19
+        minSdkVersion 29
         targetSdkVersion 29
 
-        /*
         javaCompileOptions {
             annotationProcessorOptions {
                 arguments = [AROUTER_MODULE_NAME: project.getName()]
             }
         }
-         */
     }
 
     buildTypes {
@@ -25,8 +22,8 @@ android {
 }
 
 dependencies {
-    implementation files('libs/core-3.4.0.jar')
+    api files('libs/core-3.4.0.jar')
 
-    /*implementation 'com.alibaba:arouter-api:1.5.0'
-    annotationProcessor 'com.alibaba:arouter-compiler:1.2.2'*/
+    implementation 'com.alibaba:arouter-api:1.5.0'
+    annotationProcessor 'com.alibaba:arouter-compiler:1.2.2'
 }

@@ -22,7 +22,7 @@
 22    android:versionName="4.7.8" >
 23
 24    <uses-sdk
-25        android:minSdkVersion="19"
+25        android:minSdkVersion="29"
 25-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml
 26        android:targetSdkVersion="29" />
 26-->D:\WorkSpace\Xiaomi\Android\WifiAdb\lib_qr\src\main\AndroidManifest.xml
