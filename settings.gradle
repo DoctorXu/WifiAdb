@@ -1,3 +1,2 @@
-include ':app', ':lib_db'
+include ':app', ':lib_db', ':lib_qr'
 rootProject.name='WifiAdb'
-include ':lib_qr'

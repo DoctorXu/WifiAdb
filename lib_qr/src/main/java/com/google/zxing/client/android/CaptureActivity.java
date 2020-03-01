@@ -16,6 +16,7 @@
 
 package com.google.zxing.client.android;
 
+import com.alibaba.android.arouter.facade.annotation.Route;
 import com.google.zxing.BarcodeFormat;
 import com.google.zxing.DecodeHintType;
 import com.google.zxing.Result;

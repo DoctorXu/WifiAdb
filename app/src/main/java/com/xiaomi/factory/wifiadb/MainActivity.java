@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
+import com.alibaba.android.arouter.launcher.ARouter;
 import com.google.zxing.client.android.CaptureActivity;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -22,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, CaptureActivity.class);
                 startActivityForResult(intent, 1);
+                // ARouter.getInstance().build("/qr/capture/activity").navigation();
             }
         });
     }

@@ -24,6 +24,6 @@ android {
 dependencies {
     api files('libs/core-3.4.0.jar')
 
-    implementation 'com.alibaba:arouter-api:1.5.0'
+    api 'com.alibaba:arouter-api:1.5.0'
     annotationProcessor 'com.alibaba:arouter-compiler:1.2.2'
 }
